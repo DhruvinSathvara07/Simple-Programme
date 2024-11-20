@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const value1 = Number(prompt("Enter First number"));
+        const value2 = Number(prompt("Enter Second number"));
+        const operator = prompt("Enter + - * /");
+
+        if (operator === "+") {
+            document.write(value1 + value2);
+        } else if (operator === "-") {
+            document.write(value1 - value2);
+        } else if (operator === "*") {
+            document.write(value1 * value2);
+        } else if (operator === "/") {
+            document.write(value1 / value2);
+        } else {
+            document.write("Enter Invalid Operator");
+        }
+    </script>
+</body>
+
+</html>
